@@ -1,0 +1,15 @@
+[package]
+name = "recursive-collatz"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+bytemuck = { version = "1.4", features = ["derive"] }
+pollster = "0.2"
+env_logger = "0.8"
+
+[dependencies.wgpu]
+git = "https://github.com/gfx-rs/wgpu"
+rev = "48f8811f0f6643f112baa3a2a9e2c287017a022d"
